@@ -7,12 +7,12 @@ using namespace std;
 void Lungime()
 {
 	system("cls");
-	cout << "                                                    CONVERTOR" << endl;
+	cout << "												CONVERTOR" << endl;
 	int alegere1 = 0, alegere2 = 0;
 	long double capacitate;
 	cout << endl;
 	cout << endl;
-	cout << "	UNITATI DE MASURA PENTRU LUNGIME" << endl;
+	cout << "		UNITATI DE MASURA PENTRU LUNGIME" ;
 	cout << endl;
 	cout << "	1. Centimetri" << endl;
 	cout << "	2. Picioare (feets)" << endl;
@@ -247,36 +247,36 @@ void Lungime()
 	}
 }
 
-void Arie() // de verificat
+void Arie() 
 {
 	system("cls");
-	cout << "CONVERTOR" << endl;
+	cout << "												CONVERTOR" << endl;
 	int alegere1 = 0, alegere2 = 0;
 	long double capacitate = 0;
 	cout << endl;
 	cout << endl;
-	cout << "UNITATI DE MASURA PENTRU ARIE" << endl;
-	cout << "1. Ari" << endl;
-	cout << "2. Acri" << endl;
-	cout << "3. Centimetri pttrati" << endl;
-	cout << "4. Picioare(feets)" << endl;
-	cout << "5. Hectari" << endl;
-	cout << "6. Tol(inches)" << endl;
-	cout << "7. Kilometri patrati" << endl;
-	cout << "8. Metri patrati" << endl;
-	cout << "9. Milimetri patrati" << endl;
-	cout << "10. Yarzi patrati" << endl;
-	cout << "11. MENIU";
+	cout << "		UNITATI DE MASURA PENTRU ARIE" << endl;
+	cout << "	1. Ari" << endl;
+	cout << "	2. Acri" << endl;
+	cout << "	3. Centimetri pttrati" << endl;
+	cout << "	4. Picioare(feets)" << endl;
+	cout << "	5. Hectari" << endl;
+	cout << "	6. Tol(inches)" << endl;
+	cout << "	7. Kilometri patrati" << endl;
+	cout << "	8. Metri patrati" << endl;
+	cout << "	9. Milimetri patrati" << endl;
+	cout << "	10. Yarzi patrati" << endl;
+	cout << "	11. MENIU";
 	cout << endl;
 	cout << endl;
 	cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-	cout << "[1 - 9 / 10 - MENIU]";
+	cout << "[1 - 10 / 11 - MENIU]";
 	cin >> alegere1;
 	while (alegere1 > 10)
 	{
 		cout << "Optiunea nu exista! Va rugam incercati din nou!";
 		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-		cout << "[1 - 9 / 10 - MENIU]";
+		cout << "[1 - 10 / 11 - MENIU]";
 		cin >> alegere1;
 	}
 	if (alegere1 == 11)
@@ -284,13 +284,13 @@ void Arie() // de verificat
 	else
 	{
 		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-		cout << "[1 - 9 / 10 - MENIU]";
+		cout << "[1 - 10 / 11 - MENIU]";
 		cin >> alegere2;
 		while (alegere2 == 11)
 		{
 			cout << "Optiunea nu exista! Va rugam incercati din nou!";
 			cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-			cout << "[1 - 9 / 10 - MENIU]";
+			cout << "[1 - 10 / 11 - MENIU]";
 			cin >> alegere2;
 		}
 		if (alegere2 == 11)
@@ -534,37 +534,33 @@ void Arie() // de verificat
 void Volum()
 {
 	system("cls");
-	cout << "CONVERTOR" << endl;
+	cout << "												CONVERTOR" << endl;
 	int alegere1 = 0, alegere2 = 0;
 	long double capacitate = 0;
 	cout << endl;
 	cout << endl;
-	cout << "UNITATI DE MASURA PENTRU VOLUM" << endl;
-	cout << "1. Centilitri" << endl;
-	cout << "2. Centimetri" << endl;
-	cout << "3. Decilitri" << endl;
-	cout << "4. Decimetri" << endl;
-	cout << "5. Picioare(feets)" << endl;
-	cout << "6. Galon (UK)" << endl;
-	cout << "7. Tol(inches)" << endl;
-	cout << "8. Litri" << endl;
-	cout << "9. Mililitri" << endl;
-	cout << "10. Metri" << endl;
-	cout << "11. MENIU";
+	cout << "		UNITATI DE MASURA PENTRU VOLUM" << endl;
+	cout << "	1. Centilitri" << endl;
+	cout << "	2. Centimetri" << endl;
+	cout << "	3. Decilitri" << endl;
+	cout << "	4. Decimetri" << endl;
+	cout << "	5. Picioare(feets)" << endl;
+	cout << "	6. Galon (UK)" << endl;
+	cout << "	7. Tol(inches)" << endl;
+	cout << "	8. Litri" << endl;
+	cout << "	9. Mililitri" << endl;
+	cout << "	10. Metri" << endl;
+	cout << "	11. MENIU";
 	cout << endl;
 	cout << endl;
 	cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-	cout << "[1 - 9 / 10 - MENIU]";
-	cin >> alegere1;
-	while (alegere1 > 10)
-		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-	cout << "[1 - 9 / 10 - MENIU]";
+	cout << "[1 - 10 / 11 - MENIU]";
 	cin >> alegere1;
 	while (alegere1 > 10)
 	{
 		cout << "Optiunea nu exista! Va rugam incercati din nou!";
 		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-		cout << "[1 - 9 / 10 - MENIU]";
+		cout << "[1 - 10 / 11 - MENIU]";
 		cin >> alegere1;
 	}
 	if (alegere1 == 11)
@@ -572,13 +568,13 @@ void Volum()
 	else
 	{
 		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-		cout << "[1 - 9 / 10 - MENIU]";
+		cout << "[1 - 10 / 11 - MENIU]";
 		cin >> alegere2;
 		while (alegere2 == 11)
 		{
 			cout << "Optiunea nu exista! Va rugam incercati din nou!";
 			cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-			cout << "[1 - 9 / 10 - MENIU]";
+			cout << "[1 - 10 / 11 - MENIU]";
 			cin >> alegere2;
 		}
 		if (alegere2 == 11)
@@ -822,31 +818,28 @@ void Volum()
 void Temperatura()
 {
 	system("cls");
-	cout << "CONVERTOR" << endl;
+	cout << "												CONVERTOR" << endl;
 	int alegere1 = 0, alegere2 = 0;
 	long double capacitate = 0;
 	cout << endl;
 	cout << endl;
-	cout << "UNITATI DE MASURA PENTRU TEMPERATURA" << endl;
-	cout << "1. C°, Grade Celsius" << endl;
-	cout << "2. F°, Grade Fahrenheit " << endl;
-	cout << "3. K°, Grade Kelvin" << endl;
-	cout << "4. R°, Grade Rankine" << endl;
-	cout << "5. MENIU";
+	cout << "		UNITATI DE MASURA PENTRU TEMPERATURA" << endl;
+	cout << "	1. Grade Celsius" << endl;
+	cout << "	2. Grade Fahrenheit " << endl;
+	cout << "	3. Grade Kelvin" << endl;
+	cout << "	4. Grade Rankine" << endl;
+	cout << "	5. MENIU";
 	cout << endl;
 	cout << endl;
 	cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-	cout << "[1 - 9 / 10 - MENIU]";
+	cout << "[1 - 4 / 5 - MENIU]";
 	cin >> alegere1;
-	while (alegere1 > 4)
-		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-	cout << "[1 - 9 / 10 - MENIU]";
-	cin >> alegere1;
+
 	while (alegere1 > 4)
 	{
 		cout << "Optiunea nu exista! Va rugam incercati din nou!";
 		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-		cout << "[1 - 9 / 10 - MENIU]";
+		cout << "[1 - 4 / 5 - MENIU]";
 		cin >> alegere1;
 	}
 	if (alegere1 == 5)
@@ -854,13 +847,13 @@ void Temperatura()
 	else
 	{
 		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-		cout << "[1 - 9 / 10 - MENIU]";
+		cout << "[1 - 4 / 5 - MENIU]";
 		cin >> alegere2;
 		while (alegere2 == 5)
 		{
 			cout << "Optiunea nu exista! Va rugam incercati din nou!";
 			cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-			cout << "[1 - 9 / 10 - MENIU]";
+			cout << "[1 - 4 / 5 - MENIU]";
 			cin >> alegere2;
 		}
 		if (alegere2 == 5)
@@ -896,7 +889,7 @@ void Temperatura()
 				capacitate = capacitate * 1.8000000000000114;
 
 			if (alegere1 == 4 && alegere2 == 1)
-				capacitate = capacitate * 272.59444444444443;
+				capacitate = capacitate * -272.59444444444443;
 			if (alegere1 == 4 && alegere2 == 2)
 				capacitate = capacitate * -458.66999999999996;
 			if (alegere1 == 4 && alegere2 == 3)
@@ -926,33 +919,29 @@ void Temperatura()
 	}
 }
 
-void Viteză()
+void Viteza()
 {
 	system("cls");
-	cout << "CONVERTOR" << endl;
+	cout << "											CONVERTOR" << endl;
 	int alegere1 = 0, alegere2 = 0;
 	long double capacitate = 0;
 	cout << endl;
 	cout << endl;
-	cout << "UNITATI DE MASURA PENTRU Viteza" << endl;
-	cout << "1. Kilometri/Ora << endl;
-		cout << "2. Metri/Ora " << endl;
-	cout << "3. Metri/Secunda" << endl;
-	cout << "4. MENIU";
+	cout <<	"		UNITATI DE MASURA PENTRU VITEZA" << endl;
+	cout << "	1. Kilometri/Ora "<< endl;
+	cout << "	2. Metri/Ora " << endl;
+	cout << "	3. Metri/Secunda" << endl;
+	cout << "	4. MENIU";
 	cout << endl;
 	cout << endl;
 	cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-	cout << "[1 - 9 / 10 - MENIU]";
-	cin >> alegere1;
-	while (alegere1 > 3)
-		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-	cout << "[1 - 9 / 10 - MENIU]";
+	cout << "[1 - 3 / 4 - MENIU]";
 	cin >> alegere1;
 	while (alegere1 > 3)
 	{
 		cout << "Optiunea nu exista! Va rugam incercati din nou!";
 		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-		cout << "[1 - 9 / 10 - MENIU]";
+		cout << "[1 - 3 / 4 - MENIU]";
 		cin >> alegere1;
 	}
 	if (alegere1 == 4)
@@ -960,13 +949,13 @@ void Viteză()
 	else
 	{
 		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-		cout << "[1 - 9 / 10 - MENIU]";
+		cout << "[1 - 3 / 4 - MENIU]";
 		cin >> alegere2;
 		while (alegere2 == 4)
 		{
 			cout << "Optiunea nu exista! Va rugam incercati din nou!";
 			cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-			cout << "[1 - 9 / 10 - MENIU]";
+			cout << "[1 - 3 / 4 - MENIU]";
 			cin >> alegere2;
 		}
 		if (alegere2 == 4)
@@ -1019,35 +1008,32 @@ void Viteză()
 void Masa()
 {
 	system("cls");
-	cout << "CONVERTOR" << endl;
+	cout << "												CONVERTOR" << endl;
 	int alegere1 = 0, alegere2 = 0;
 	long double capacitate = 0;
 	cout << endl;
 	cout << endl;
-	cout << "UNITATI DE MASURA PENTRU MASA" << endl;
-	cout << "1. Grame" << endl;
-	cout << "2. Kilograme" << endl;
-	cout << "3. Funte (pound)" << endl;
-	cout << "4. Miligrame" << endl;
-	cout << "5. Uncii(Avoirdupois)" << endl;
-	cout << "6. Uncii (Troy)" << endl;
-	cout << "7. Slug" << endl;
-	cout << "8. Tone" << endl;
-	cout << "9. MENIU";
+	cout << "		UNITATI DE MASURA PENTRU MASA" << endl;
+	cout << "	1. Grame" << endl;
+	cout << "	2. Kilograme" << endl;
+	cout << "	3. Funte (pound)" << endl;
+	cout << "	4. Miligrame" << endl;
+	cout <<	"	5. Uncii(Avoirdupois)" << endl;
+	cout << "	6. Uncii (Troy)" << endl;
+	cout << "	7. Slug" << endl;
+	cout << "	8. Tone" << endl;
+	cout << "	9. MENIU";
 	cout << endl;
 	cout << endl;
 	cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-	cout << "[1 - 9 / 10 - MENIU]";
+	cout << "[1 - 8 / 9 - MENIU]";
 	cin >> alegere1;
-	while (alegere1 > 8)
-		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-	cout << "[1 - 9 / 10 - MENIU]";
-	cin >> alegere1;
+	
 	while (alegere1 > 8)
 	{
 		cout << "Optiunea nu exista! Va rugam incercati din nou!";
 		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-		cout << "[1 - 9 / 10 - MENIU]";
+		cout << "[1 - 8 / 9 - MENIU]";
 		cin >> alegere1;
 	}
 	if (alegere1 == 9)
@@ -1055,13 +1041,13 @@ void Masa()
 	else
 	{
 		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-		cout << "[1 - 9 / 10 - MENIU]";
+		cout << "[1 - 8 / 9 - MENIU]";
 		cin >> alegere2;
 		while (alegere2 == 9)
 		{
 			cout << "Optiunea nu exista! Va rugam incercati din nou!";
 			cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-			cout << "[1 - 9 / 10 - MENIU]";
+			cout << "[1 - 8 / 9 - MENIU]";
 			cin >> alegere2;
 		}
 		if (alegere2 == 9)
@@ -1103,7 +1089,7 @@ void Masa()
 				capacitate = capacitate * 0.06852176556196105;
 			if (alegere1 == 2 && alegere2 == 8)
 				capacitate = capacitate * 0.001;
-
+			
 			if (alegere1 == 3 && alegere2 == 1)
 				capacitate = capacitate * 453.592;
 			if (alegere1 == 3 && alegere2 == 2)
@@ -1118,7 +1104,7 @@ void Masa()
 				capacitate = capacitate * 0.031080924684781037;
 			if (alegere1 == 3 && alegere2 == 8)
 				capacitate = capacitate * 0.000453592;
-
+			
 			if (alegere1 == 4 && alegere2 == 1)
 				capacitate = capacitate * 0.001;
 			if (alegere1 == 4 && alegere2 == 2)
@@ -1148,7 +1134,7 @@ void Masa()
 				capacitate = capacitate * 0.0019425577927988148;
 			if (alegere1 == 5 && alegere2 == 8)
 				capacitate = capacitate * 0.0000283495;
-
+		
 			if (alegere1 == 6 && alegere2 == 1)
 				capacitate = capacitate * 31.103499999999997;
 			if (alegere1 == 6 && alegere2 == 2)
@@ -1163,7 +1149,7 @@ void Masa()
 				capacitate = capacitate * 0.0021312667351564554;
 			if (alegere1 == 6 && alegere2 == 8)
 				capacitate = capacitate * 0.0000311035;
-
+			
 			if (alegere1 == 7 && alegere2 == 1)
 				capacitate = capacitate * 14593.902999999998;
 			if (alegere1 == 7 && alegere2 == 2)
@@ -1178,7 +1164,7 @@ void Masa()
 				capacitate = capacitate * 469.20452682174033;
 			if (alegere1 == 7 && alegere2 == 8)
 				capacitate = capacitate * 0.014593902999999998;
-
+			
 			if (alegere1 == 8 && alegere2 == 1)
 				capacitate = capacitate * 1000000;
 			if (alegere1 == 8 && alegere2 == 2)
@@ -1225,35 +1211,32 @@ void Masa()
 		}
 
 	}
-
+			
 }
 
 void Presiune()
 {
 	system("cls");
-	cout << "CONVERTOR" << endl;
+	cout << "												CONVERTOR" << endl;
 	int alegere1 = 0, alegere2 = 0;
 	long double capacitate = 0;
 	cout << endl;
 	cout << endl;
-	cout << "UNITATI DE MASURA PENTRU PRESIUNE" << endl;
-	cout << "1. Bar << endl;
-	cout << "2.  Funte pe țol pătrat(pounds per square inch) " << endl;
-	cout << "3. MENIU";
+	cout << "		UNITATI DE MASURA PENTRU PRESIUNE" << endl;
+	cout << "	1. Bar" << endl;
+	cout << "	2.  Funte pe țol pătrat(pounds per square inch) " << endl;
+	cout << "	3. MENIU";
 	cout << endl;
 	cout << endl;
 	cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-	cout << "[1 - 9 / 10 - MENIU]";
+	cout << "[1 - 2 / 3 - MENIU]";
 	cin >> alegere1;
-	while (alegere1 > 2)
-		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-	cout << "[1 - 9 / 10 - MENIU]";
-	cin >> alegere1;
+	
 	while (alegere1 > 2)
 	{
 		cout << "Optiunea nu exista! Va rugam incercati din nou!";
 		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-		cout << "[1 - 9 / 10 - MENIU]";
+		cout << "[1 - 2 / 3 - MENIU]";
 		cin >> alegere1;
 	}
 	if (alegere1 == 3)
@@ -1261,13 +1244,13 @@ void Presiune()
 	else
 	{
 		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-		cout << "[1 - 9 / 10 - MENIU]";
+		cout << "[1 - 2 / 3 - MENIU]";
 		cin >> alegere2;
-		while (alegere2 == )
+		while (alegere2 == 3)
 		{
 			cout << "Optiunea nu exista! Va rugam incercati din nou!";
 			cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
-			cout << "[1 - 9 / 10 - MENIU]";
+			cout << "[1 - 2 / 3 - MENIU]";
 			cin >> alegere2;
 		}
 		if (alegere2 == 3)
@@ -1287,11 +1270,11 @@ void Presiune()
 				capacitate = capacitate * 0.07035466625683673;
 
 			if (alegere1 == 1) cout << " Bar = ";
-			if (alegere1 == 2) cout << " Funte pe țol pătrat(pounds per square inch) = ";
+			if (alegere1 == 2) cout << " Funte pe tol pătrat(pounds per square inch) = ";
 			cout << capacitate;
 
 			if (alegere1 == 1) cout << " Bar";
-			if (alegere1 == 2) cout << " Funte pe țol pătrat(pounds per square inch)";
+			if (alegere1 == 2) cout << " Funte pe tol pătrat(pounds per square inch)";
 			cout << capacitate;
 			cout << endl;
 			cout << endl;
@@ -1311,9 +1294,10 @@ void Densitate()
 	system("cls");
 	cout << endl;
 	cout << endl;
-	cout << "                                                      CONVERTOR" << endl;
+	cout << "												CONVERTOR" << endl;
 	int alegere1 = 0, alegere2 = 0;
 	long double capacitate = 0;
+	double c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15, c16, c17, c18, c19, c20;
 	c3 = 1;
 	c4 = 1000;
 	c5 = 0.001;
@@ -1333,8 +1317,8 @@ void Densitate()
 	c19 = 0.000578036672;
 	c20 = 0.001;
 	cout << endl;
-	cout << "   UNITATI DE MASURA PENTRU DENSITATE: " << endl;
-	cout << "   1.Kilogram pe metru cub" << endl;
+	cout << "		UNITATI DE MASURA PENTRU DENSITATE: " << endl;
+	cout << "	1.Kilogram pe metru cub" << endl;
 	cout << "   2.Gram pe centimetru cub" << endl;
 	cout << "   3.Gram pe litru" << endl;
 	cout << "   4.Gram pe metru cub" << endl;
@@ -1354,8 +1338,8 @@ void Densitate()
 	cout << "   18.Uncie Avoirdupois pe picior cub" << endl;
 	cout << "   19.Uncie Avoirdupois pe țol cub" << endl;
 	cout << "   20.Tona pe metru cub" << endl;
-	cout << "   0.Meniu principal" << endl; uble c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15, c16, c17, c18, c19, c20;
-	c2 = 0.00
+	cout << "   0.Meniu principal" << endl; 
+	c2 = 0.00;
 		cout << endl;
 	cout << "   Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti (1-20/ 0-Meniu principal): ";
 	cin >> alegere1;
@@ -1549,7 +1533,7 @@ void Densitate()
 				if (alegere2 == 20)
 					capacitate = capacitate*c20;
 			}
-			if (alegere1s == 1)
+			if (alegere1 == 1)
 				cout << " kilograme pe metru cub = ";
 			if (alegere1 == 2)
 				cout << " grame pe centimetru cub = ";
@@ -1637,12 +1621,363 @@ void Densitate()
 			char s[3];
 			cin >> s;
 			if (strcmp(s, "NU") == 0 || strcmp(s, "Nu") == 0 || strcmp(s, "nU") == 0 || strcmp(s, "nu") == 0)
-				tasta = 0;
+				alegere = 0;
 			system("cls");
 		}
 	}
 }
 
+void Timp()
+{
+	system("cls");
+	cout << "												CONVERTOR" << endl;
+	int alegere1 = 0, alegere2 = 0;
+	long double capacitate = 0;
+	cout << endl;
+	cout << endl;
+	cout << "		UNITATI DE MASURA PENTRU TIMP" << endl;
+	cout << "	1. Ora "<< endl;
+	cout << "	2. Minute " << endl;
+	cout << "	3. Milisecundă" << endl;
+	cout << "	4. Nanosecundă "<< endl;
+	cout <<	"	5. Picosecundă " << endl;
+	cout << "	6. Secundă" << endl;
+	cout << "	7. MENIU";
+	cout << endl;
+	cout << endl;
+	cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
+	cout << "[1 - 6 / 7 - MENIU]";
+	cin >> alegere1;
+	while (alegere1 > 6)
+	{
+		cout << "Optiunea nu exista! Va rugam incercati din nou!";
+		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
+		cout << "[1 - 6 / 7 - MENIU]";
+		cin >> alegere1;
+	}
+	if (alegere1 == 7)
+		system("cls");
+	else
+	{
+		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
+		cout << "[1 - 9 / 10 - MENIU]";
+		cin >> alegere2;
+		while (alegere2 == 7)
+		{
+			cout << "Optiunea nu exista! Va rugam incercati din nou!";
+			cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
+			cout << "[1 - 6 / 7 - MENIU]";
+			cin >> alegere2;
+		}
+		if (alegere2 == 7)
+			system("cls");
+		else
+		{
+			cout << endl;
+			cout << endl;
+			cout << "Introduceti capacitatea pe care doriti sa o convertiti:  ";
+			cin >> capacitate;
+			cout << endl;
+			cout << "TRANSFORMARE=  " << capacitate;
+	if (alegere1 == 1 && alegere2 == 2)
+	capacitate = capacitate * 60;
+	if (alegere1 == 1 && alegere2 == 3)
+	capacitate = capacitate * 3600000;
+	if (alegere1 == 1 && alegere2 == 4)
+	capacitate = capacitate * 3600000000000;
+	if (alegere1 == 1 && alegere2 == 5)
+	capacitate = capacitate * 3600000000000000;
+	if (alegere1 == 1 && alegere2 == 6)
+	capacitate = capacitate * 3600;
+	
+	if (alegere1 == 2 && alegere2 == 1)
+	capacitate = capacitate * 0.016666666666666666;
+	if (alegere1 == 2 && alegere2 == 3)
+	capacitate = capacitate * 60000;
+	if (alegere1 == 2 && alegere2 == 4)
+	capacitate = capacitate * 60000000000;
+	if (alegere1 == 2 && alegere2 == 5)
+	capacitate = capacitate * 60000000000000;
+	if (alegere1 == 2 && alegere2 == 6)
+	capacitate = capacitate * 60;
+	
+	if (alegere1 == 3 && alegere2 == 1)
+	capacitate = capacitate * 2.7777777777777776;
+	if (alegere1 == 3 && alegere2 == 2)
+	capacitate = capacitate * 0.000016666666666666667;
+	if (alegere1 == 3 && alegere2 == 4)
+	capacitate = capacitate * 1000000;
+	if (alegere1 == 3 && alegere2 == 5)
+	capacitate = capacitate * 1000000000;
+	if (alegere1 == 3 && alegere2 == 6)
+	capacitate = capacitate * 0.001;
+	
+	if (alegere1 == 4 && alegere2 == 1)
+	capacitate = capacitate * 2.777777777777778;
+	if (alegere1 == 4 && alegere2 == 2)
+	capacitate = capacitate * 1.6666666666666667;
+	if (alegere1 == 4 && alegere2 == 3)
+	capacitate = capacitate * 0.000001;
+	if (alegere1 == 4 && alegere2 == 5)
+	capacitate = capacitate * 1000.0000000000001;
+	if (alegere1 == 4 && alegere2 == 6)
+	capacitate = capacitate * 1e-9;
+	
+	if (alegere1 == 5 && alegere2 == 1)
+	capacitate = capacitate * 2.7777777777777775;
+	if (alegere1 == 5 && alegere2 == 2)
+	capacitate = capacitate * 1.6666666666666667;
+	if (alegere1 == 5 && alegere2 == 3)
+	capacitate = capacitate * 1e-9;
+	if (alegere1 == 5 && alegere2 == 4)
+	capacitate = capacitate * 0.001;
+	if (alegere1 == 5 && alegere2 == 6)
+	capacitate = capacitate * 1e-12;
+	
+	if (alegere1 == 6 && alegere2 == 1)
+	capacitate = capacitate * 0.0002777777777777778;
+	if (alegere1 == 6 && alegere2 == 2)
+	capacitate = capacitate * 0.016666666666666666;
+	if (alegere1 == 6 && alegere2 == 3)
+	capacitate = capacitate * 1000;
+	if (alegere1 == 6 && alegere2 == 4)
+	capacitate = capacitate * 999999999.9999999;
+	if (alegere1 == 6 && alegere2 == 5)
+	capacitate = capacitate * 1000000000000;
+	
+	if (alegere1 == 1) cout << " Oră = ";
+	if (alegere1 == 2) cout << " Minute = ";
+	if (alegere1 == 3) cout << " Milisecundă = ";
+	if (alegere1 == 4) cout << " Nanosecundă = ";
+	if (alegere1 == 5) cout << " Picosecundă = ";
+	if (alegere1 == 6) cout << " Secundă = ";
+	
+	cout << capacitate;
 
+	if (alegere2 == 1) cout << "Oră";
+	if (alegere2 == 2) cout << "Minute";
+	if (alegere2 == 3) cout << "Milisecundă";
+	if (alegere2 == 4) cout << "Nanosecundă";
+	if (alegere2 == 5) cout << "Picosecundă";
+	if (alegere2 == 6) cout << "Secundă";
+	
+	cout << endl;
+	cout << endl;
+	cout << "   Doriti sa efectuati alta transformare? (DA/NU)" << endl;
+	cout << "   ";
+	char verificare[3];
+	cin >> verificare;
+	if (strcmp(verificare, "NU") == 0 || strcmp(verificare, "Nu") == 0 || strcmp(verificare, "nU") == 0 || strcmp(verificare, "nu") == 0)
+		alegere = 0;
+	system("cls");
 
+		}
 
+	}
+}
+		
+void Energie()
+{
+	system("cls");
+	cout << "												CONVERTOR" << endl;
+	int alegere1 = 0, alegere2 = 0;
+	long double capacitate = 0;
+	cout << endl;
+	cout << endl;
+	cout << "		UNITATI DE MASURA PENTRU ENERGIE" << endl;
+	cout << "	1. Calorie" << endl;
+	cout << "	2. Kilocalorie " << endl;
+	cout << "	3. Kilojouli" << endl;
+	cout << "	4. Kilowatt" << endl;
+	cout <<	"	5. Watt / h " << endl;
+	cout << "	6. Watt / s" << endl;
+	cout << "	7. MENIU";
+	cout << endl;
+	cout << endl;
+	cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
+	cout << "[1 - 6 / 7 - MENIU]";
+	cin >> alegere1;
+	while (alegere1 > 6)
+	{
+		cout << "Optiunea nu exista! Va rugam incercati din nou!";
+		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
+		cout << "[1 - 6 / 7 - MENIU]";
+		cin >> alegere1;
+	}
+	if (alegere1 == 7)
+		system("cls");
+	else
+	{
+		cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
+		cout << "[1 - 9 / 10 - MENIU]";
+		cin >> alegere2;
+		while (alegere2 == 7)
+		{
+			cout << "Optiunea nu exista! Va rugam incercati din nou!";
+			cout << "Introduceti numarul de ordine al unitatii de masura din care doriti sa convertiti!";
+			cout << "[1 - 6 / 7 - MENIU]";
+			cin >> alegere2;
+		}
+		if (alegere2 == 7)
+			system("cls");
+		else
+		{
+			cout << endl;
+			cout << endl;
+			cout << "Introduceti capacitatea pe care doriti sa o convertiti:  ";
+			cin >> capacitate;
+			cout << endl;
+			cout << "TRANSFORMARE=  " << capacitate;
+			if (alegere1 == 1 && alegere2 == 2)
+				capacitate = capacitate * 0.001;
+			if (alegere1 == 1 && alegere2 == 3)
+				capacitate = capacitate * 0.0041868;
+			if (alegere1 == 1 && alegere2 == 4)
+				capacitate = capacitate * 0.000001163;
+			if (alegere1 == 1 && alegere2 == 5)
+				capacitate = capacitate * 0.001163;
+			if (alegere1 == 1 && alegere2 == 6)
+				capacitate = capacitate * 4.1868;
+
+			if (alegere1 == 2 && alegere2 == 1)
+				capacitate = capacitate * 1000.0000000000001;
+			if (alegere1 == 2 && alegere2 == 3)
+				capacitate = capacitate * 4.1868;
+			if (alegere1 == 2 && alegere2 == 4)
+				capacitate = capacitate * 0.001163;
+			if (alegere1 == 2 && alegere2 == 5)
+				capacitate = capacitate * 1.163;
+			if (alegere1 == 2 && alegere2 == 6)
+				capacitate = capacitate * 4186.8;
+
+			if (alegere1 == 3 && alegere2 == 1)
+				capacitate = capacitate * 238.84589662749596;
+			if (alegere1 == 3 && alegere2 == 2)
+				capacitate = capacitate * 0.23884589662749592;
+			if (alegere1 == 3 && alegere2 == 4)
+				capacitate = capacitate * 0.0002777777777777778;
+			if (alegere1 == 3 && alegere2 == 5)
+				capacitate = capacitate * 0.2777777777777778;
+			if (alegere1 == 3 && alegere2 == 6)
+				capacitate = capacitate * 1000;
+
+			if (alegere1 == 4 && alegere2 == 1)
+				capacitate = capacitate * 859845.2278589854;
+			if (alegere1 == 4 && alegere2 == 2)
+				capacitate = capacitate * 859.8452278589854;
+			if (alegere1 == 4 && alegere2 == 3)
+				capacitate = capacitate * 3600;
+			if (alegere1 == 4 && alegere2 == 5)
+				capacitate = capacitate * 1000;
+			if (alegere1 == 4 && alegere2 == 6)
+				capacitate = capacitate * 3600000;
+
+			if (alegere1 == 5 && alegere2 == 1)
+				capacitate = capacitate * 859.8452278589854;
+			if (alegere1 == 5 && alegere2 == 2)
+				capacitate = capacitate * 0.8598452278589853;
+			if (alegere1 == 5 && alegere2 == 3)
+				capacitate = capacitate * 3.6;
+			if (alegere1 == 5 && alegere2 == 4)
+				capacitate = capacitate * 0.001;
+			if (alegere1 == 5 && alegere2 == 6)
+				capacitate = capacitate * 3600;
+
+			if (alegere1 == 6 && alegere2 == 1)
+				capacitate = capacitate * 0.23884589662749595;
+			if (alegere1 == 6 && alegere2 == 2)
+				capacitate = capacitate * 0.00023884589662749592;
+			if (alegere1 == 6 && alegere2 == 3)
+				capacitate = capacitate * 0.001;
+			if (alegere1 == 6 && alegere2 == 4)
+				capacitate = capacitate * 2.7777777777777776;
+			if (alegere1 == 6 && alegere2 == 5)
+				capacitate = capacitate * 0.0002777777777777778;
+
+			if (alegere1 == 1) cout << " Calorie = ";
+			if (alegere1 == 2) cout << " Kilocalorie = ";
+			if (alegere1 == 3) cout << " Kilojouli = ";
+			if (alegere1 == 4) cout << " Kilowatt = ";
+			if (alegere1 == 5) cout << " Watt / h = ";
+			if (alegere1 == 6) cout << " Watt / s= ";
+
+			cout << capacitate;
+
+			if (alegere2 == 1) cout << "Calorie";
+			if (alegere2 == 2) cout << "Kilocalorie";
+			if (alegere2 == 3) cout << "Kilojouli";
+			if (alegere2 == 4) cout << "Kilowatt";
+			if (alegere2 == 5) cout << "Watt / h";
+			if (alegere2 == 6) cout << "Watt / s";
+
+			cout << endl;
+			cout << endl;
+			cout << "   Doriti sa efectuati alta transformare? (DA/NU)" << endl;
+			cout << "   ";
+			char verificare[3];
+			cin >> verificare;
+			if (strcmp(verificare, "NU") == 0 || strcmp(verificare, "Nu") == 0 || strcmp(verificare, "nU") == 0 || strcmp(verificare, "nu") == 0)
+				alegere = 0;
+			system("cls");
+
+		}
+
+	}
+}
+
+int main()
+{
+	alegere = 3;
+	while (alegere != 0)
+	{
+		cout << endl;
+		cout << endl;
+		cout << "                                                      CONVERTOR" << endl;
+		cout << endl;
+		cout << "		 OPTIUNI: " << endl;
+		cout << "   1.Lungime" << endl;
+		cout << "   2.Arie" << endl;
+		cout << "   3.Volum" << endl;
+		cout << "   4.Temperatura" << endl;
+		cout << "   5.Viteza" << endl;
+		cout << "   6.Masa" << endl;
+		cout << "   7.Presiune" << endl;
+		cout << "   8.Densitate" << endl;
+		cout << "   9.Timp" << endl;
+		cout << "   10.Energie" << endl;
+		cout << "   0.Exit" << endl;;
+		cout << endl;
+		cout << "   Introduceti numarul optiunii pe care doriti sa o accesati (0-12): ";
+		cin >> alegere;
+		if (alegere == 1)
+			Lungime();
+		if (alegere == 2)
+			Arie();
+		if (alegere == 3)
+			Volum();
+		if (alegere == 4)
+			Temperatura();
+		if (alegere == 5)
+			Viteza();
+		if (alegere == 6)
+			Masa();
+		if (alegere == 7)
+			Presiune();
+		if (alegere == 8)
+			Densitate();
+		if (alegere == 9)
+			Timp();
+		if (alegere == 10)
+			Energie();
+		
+		if (alegere>10)
+		{
+			system("cls");
+			cout << endl;
+			cout << endl;
+			cout << "   Aceasta optiune nu exista! Incercati din nou!" << endl;
+
+		}
+	}
+	return 0;
+}
