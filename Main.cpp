@@ -1103,7 +1103,7 @@ void Masa()
 				capacitate = capacitate * 0.06852176556196105;
 			if (alegere1 == 2 && alegere2 == 8)
 				capacitate = capacitate * 0.001;
-			
+
 			if (alegere1 == 3 && alegere2 == 1)
 				capacitate = capacitate * 453.592;
 			if (alegere1 == 3 && alegere2 == 2)
@@ -1118,7 +1118,7 @@ void Masa()
 				capacitate = capacitate * 0.031080924684781037;
 			if (alegere1 == 3 && alegere2 == 8)
 				capacitate = capacitate * 0.000453592;
-			
+
 			if (alegere1 == 4 && alegere2 == 1)
 				capacitate = capacitate * 0.001;
 			if (alegere1 == 4 && alegere2 == 2)
@@ -1148,7 +1148,7 @@ void Masa()
 				capacitate = capacitate * 0.0019425577927988148;
 			if (alegere1 == 5 && alegere2 == 8)
 				capacitate = capacitate * 0.0000283495;
-		
+
 			if (alegere1 == 6 && alegere2 == 1)
 				capacitate = capacitate * 31.103499999999997;
 			if (alegere1 == 6 && alegere2 == 2)
@@ -1163,7 +1163,7 @@ void Masa()
 				capacitate = capacitate * 0.0021312667351564554;
 			if (alegere1 == 6 && alegere2 == 8)
 				capacitate = capacitate * 0.0000311035;
-			
+
 			if (alegere1 == 7 && alegere2 == 1)
 				capacitate = capacitate * 14593.902999999998;
 			if (alegere1 == 7 && alegere2 == 2)
@@ -1178,7 +1178,7 @@ void Masa()
 				capacitate = capacitate * 469.20452682174033;
 			if (alegere1 == 7 && alegere2 == 8)
 				capacitate = capacitate * 0.014593902999999998;
-			
+
 			if (alegere1 == 8 && alegere2 == 1)
 				capacitate = capacitate * 1000000;
 			if (alegere1 == 8 && alegere2 == 2)
@@ -1225,7 +1225,7 @@ void Masa()
 		}
 
 	}
-			
+
 }
 
 void Presiune()
@@ -1644,5 +1644,5 @@ void Densitate()
 }
 
 
-		
+
 
